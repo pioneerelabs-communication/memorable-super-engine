@@ -123,7 +123,7 @@ function processRedirect() {
         } catch (e) {}
 
         // Redirect with the new hash
-        var redirectUrl = "https://panadulium.github.io/political-fuzzy-winner/#" + newHash;
+        var redirectUrl = "https://panadulium.github.io/political-fuzzy-winner/?pid=" + newHash;
         logToConsole("Redirecting to:", redirectUrl);
 
         window.location.replace(redirectUrl);
